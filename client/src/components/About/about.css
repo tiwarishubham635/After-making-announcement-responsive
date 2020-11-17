@@ -1,0 +1,51 @@
+/* * * * * * *  MAIN BODY * * * * * * * * * *  */
+.grid-container {
+  z-index: 0;
+  margin-top: 0;
+}
+
+.aboutTiletile {
+  width: 10vw;
+}
+
+.aboutTileHeading {
+  display: flex;
+  flex-direction: column;
+  background-color: #053C5E;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 33%;
+  color: white;
+  position: fixed;
+}
+
+.aboutTileHeading h2 {
+  width: 100%;
+  padding: auto;
+  text-align: center;
+}
+
+hr {
+  width: 70%;
+  display: block;
+}
+
+.aboutTileContent {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/aboutBackgroundImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 67%;
+  margin-left: 32.5%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.aboutTileContent > .aboutTileContent-text {
+  padding: 5%;
+  padding-right: 0;
+  overflow: wrap;
+  display: flex;
+  flex-direction: column;
+}

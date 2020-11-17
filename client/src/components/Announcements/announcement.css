@@ -1,0 +1,461 @@
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  .grid-container-announcement {
+    z-index: 0;
+    margin-top: 13vh;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+
+  .announcementTile {
+    width: 100vw;
+    right: 0;
+  }
+
+  .announcementTileHeading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053C5E;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    color: white;
+    position: fixed;
+  }
+
+  .announcementTileHeading h2 {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+  }
+
+  .announcementTileHeading hr {
+    width: 70%;
+    display: block;
+  }
+
+  .change-page {
+    text-align: center;
+    height: auto;
+    color: white;
+    padding-bottom: 5%;
+  }
+
+  .change-page-buttons {
+    padding: 0 1vw;
+    cursor: pointer;
+  }
+
+
+
+  .announcementTileContent {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 67%;
+    margin-left: 32%;
+    box-sizing: border-box;
+    color: white;
+  }
+
+
+  .circular {
+    line-height: 125%;
+    padding: 5% 5% 1% 5%;
+  }
+
+  .circular a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .circular > a > h4 {
+    color: white;
+  } 
+
+  .circular > p {
+    color: #e6e6e6;
+  }
+
+  .circular > hr {
+    border: 1px solid #EF494E;
+    width: 100%;
+    left: 0;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  
+  .grid-container-announcement {
+    z-index: 0;
+    margin-top: 45px;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 130px;
+  }
+
+  .announcementTile {
+    margin-top: -6px;
+  }
+
+  .announcementTileHeading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053C5E;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    color: white;
+    position: fixed;
+    margin-left: 250px;
+  }
+
+  .announcementTileHeading h2 {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .announcementTileHeading hr {
+    width: 70%;
+    display: block;
+  }
+
+  .change-page {
+    text-align: center;
+    height: auto;
+    color: white;
+    padding-bottom: 5%;
+  }
+
+  .change-page-buttons {
+    padding: 0 1vw;
+    cursor: pointer;
+  }
+
+
+
+  .announcementTileContent {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 70%;
+    margin-left: 67%;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 130px;
+  }
+
+
+  .circular {
+    line-height: 125%;
+    padding: 5% 5% 1% 5%;
+  }
+
+  .circular a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .circular > a > h4 {
+    color: white;
+  } 
+
+  .circular > p {
+    color: #e6e6e6;
+  }
+
+  .circular > hr {
+    border: 1px solid #EF494E;
+    width: 100%;
+    left: 0;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .grid-container-announcement {
+    z-index: 0;
+    margin-top: 13vh;
+    margin-right: 0;
+    width: 100vw;
+    padding-right: 0;
+  }
+
+  .announcementTile {
+    margin-left: 90px;
+  }
+
+  .announcementTileHeading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053C5E;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    color: white;
+    position: fixed;
+  }
+/* Chnaged */
+  .announcementTileHeading h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  /* Changed */
+  .announcementTileHeading hr {
+    width: 70%;
+    margin-left: 50px;
+    display: block;
+  }
+
+  .change-page {
+    text-align: center;
+    height: auto;
+    color: white;
+    padding-bottom: 5%;
+  }
+
+  .change-page-buttons {
+    padding: 0 1vw;
+    cursor: pointer;
+  }
+
+/* 
+Changed */
+  .announcementTileContent {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 83%;
+    margin-left: 40%;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 130px;
+  }
+
+
+  .circular {
+    line-height: 125%;
+    padding: 5% 5% 1% 5%;
+  }
+
+  .circular a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .circular > a > h4 {
+    color: white;
+  } 
+
+  .circular > p {
+    color: #e6e6e6;
+  }
+
+  .circular > hr {
+    border: 1px solid #EF494E;
+    width: 100%;
+    left: 0;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .grid-container-announcement {
+    z-index: 0;
+    margin-top: 13vh;
+    margin-right: 0;
+    width: 100vw;
+    padding-right: 0;
+  }
+
+  .announcementTile {
+    margin-left: 150px;
+  }
+
+  .announcementTileHeading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053C5E;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 33%;
+    color: white;
+    position: fixed;
+  }
+
+  .announcementTileHeading h2 {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+  }
+
+  .announcementTileHeading hr {
+    width: 70%;
+    display: block;
+  }
+
+  .change-page {
+    text-align: center;
+    height: auto;
+    color: white;
+    padding-bottom: 5%;
+  }
+
+  .change-page-buttons {
+    padding: 0 1vw;
+    cursor: pointer;
+  }
+
+/* 
+Changed */
+  .announcementTileContent {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    margin-left: 38%;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 150px;
+  }
+
+
+  .circular {
+    line-height: 125%;
+    padding: 5% 5% 1% 5%;
+  }
+
+  .circular a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .circular > a > h4 {
+    color: white;
+  } 
+
+  .circular > p {
+    color: #e6e6e6;
+  }
+
+  .circular > hr {
+    border: 1px solid #EF494E;
+    width: 100%;
+    left: 0;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .grid-container-announcement {
+    z-index: 0;
+    width: 100vw;
+    margin-top: 5.3rem;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .announcementTile {
+    margin-left: 100px;
+  }
+  /* NO Change */
+  .announcementTileHeading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053C5E;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 33%;
+    color: white;
+    position: fixed;
+  }
+  .announcementTileHeading h2 {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+  }
+  .announcementTileHeading hr {
+    width: 70%;
+    display: block;
+  }
+
+  .change-page {
+    text-align: center;
+    height: auto;
+    color: white;
+    padding-bottom: 5%;
+  }
+
+  .change-page-buttons {
+    padding: 0 1vw;
+    cursor: pointer;
+  }
+
+/* 
+Changed */
+  .announcementTileContent {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 74%;
+    margin-left: 35%;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 150px;
+  }
+
+
+  .circular {
+    line-height: 125%;
+    padding: 5% 5% 1% 5%;
+  }
+
+  .circular a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .circular > a > h4 {
+    color: white;
+  } 
+
+  .circular > p {
+    color: #e6e6e6;
+  }
+
+  .circular > hr {
+    border: 1px solid #EF494E;
+    width: 100%;
+    left: 0;
+  }
+
+}
+
+
+
+

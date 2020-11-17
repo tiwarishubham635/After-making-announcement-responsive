@@ -1,0 +1,61 @@
+@charset "utf-8";
+/************* For Main Tag*************/
+
+main {
+  display: flex;
+  margin-top: 12.8vh;
+  display: flex;
+  justify-content: flex-start;
+  height: 175vh;
+}
+
+.Opportunities-Heading {
+  background-color: #053c5e;
+  width: 30vw;
+  margin-right: -30vw;
+  position: fixed;
+  height: 100vh;
+}
+
+.Opportunities-Heading > div {
+  width: 80%;
+  color: white;
+  margin: 250px 0px 0px 40px;
+  font-size: 50px;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  text-align: center;
+}
+
+.Opportunities-Content {
+  margin-left: 29vw;
+  margin-right: -10px;
+  margin-top: 3vw;
+  width: 70vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) url(Background.png) fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Opportunity-Content-elements {
+  height: 50%;
+  width: 80%;
+  color: white;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.Opportunity-Content-elements:first-child{
+  margin-top: 30px;
+}
+
+.Opportuntiy-Content-elements h2 {
+  text-align: center;
+  font-size: 30px;
+}
